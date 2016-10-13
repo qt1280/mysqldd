@@ -86,6 +86,7 @@ install_ngrok(){
 		wget https://github.com/qt1280/mysqldd/raw/master/ngrok.zip
 	fi
 	unzip ngrok.zip
+	mv ngrok-master ngrok
 	export GOPATH=/usr/local/ngrok/
 	export NGROK_DOMAIN=$DOMAIN
 	cd ngrok
