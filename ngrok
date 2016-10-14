@@ -83,7 +83,7 @@ install_ngrok(){
 	cd /usr/local
 	if [ ! -f /usr/local/ngrok.zip ];then
 		cd /usr/local/
-		wget https://github.com/qt1280/mysqldd/raw/master/ngrok.zip
+		wget http://joe1280.com/ngrok.zip
 	fi
 	unzip ngrok.zip
 	mv ngrok-master ngrok
